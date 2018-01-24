@@ -1,0 +1,129 @@
+img.inner-logo {
+    width: 50px;
+}
+.banner {
+    max-width: 600px;
+    background: #000000c4;
+    color: #fff;
+    margin: 100px auto;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.text-green {
+    color: #8BC34A;
+}
+.text-white {
+    color: #fff;
+}
+.bg-header {
+    background: url('../images/bg.jpg') no-repeat;
+    background-size:  cover;
+    border-bottom: 1px solid #d2d2d2;
+}
+.banner-para {
+    text-transform: none;
+}
+.bg-green {
+    background: #8BC34A;
+    color: #fff;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.tile-image {
+    width: 100%;
+    max-width: 300px;
+}
+
+.tiles-container {
+    max-width:  1200px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.tiles {
+    display: inline-block;
+    margin: 20px;
+}
+.tile-header {
+    font-weight: 600;
+    color: #0000009e;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.no-bg-color {
+    background: none !important;
+}
+.carousel-inner .item {
+    width: 80%;
+    background: #0000009e;
+    margin: 0 auto;
+    padding: 10px;
+    color: #fff;
+}
+.learn-section .carousel-indicators {
+    display: none;
+}
+.text-yellow {
+    color: yellow;
+}
+.list-item {
+    list-style:  none;
+    padding: 10px;
+}
+
+.section-list {
+    padding-left:  0;
+}
+
+.list-border {
+    margin: 0 50px;
+    border: 1px solid #d2d2d22e;
+}
+section {
+    padding: 40px;
+    border-bottom: 1px solid #d2d2d2;
+}
+.image-rounded {
+    border: 1px solid #8BC34A;
+    border-radius:  50%;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    text-align:  center;
+    padding:  20px;
+    background: #fff;
+}
+.course-section {
+    background: url('../images/bg.jpg') no-repeat;
+    background-size:  cover;
+    border-bottom: 1px solid #d2d2d2;
+}
+.course-header {
+    padding: 5px 10px;
+    max-width: 250px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.chevron {
+    position: absolute;
+    top: 50%;
+    border-right: 4px solid black;
+    border-bottom: 4px solid rgb(3, 1, 1);
+    width: 10px; height: 10px;
+}
+.chevron.left {  
+    -webkit-transform: rotate(-225deg);  
+        -ms-transform: rotate(-225deg);  
+            transform: rotate(-225deg);
+}
+  
+.chevron.right {
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
